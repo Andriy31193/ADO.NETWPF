@@ -1,0 +1,28 @@
+﻿<Window x:Class="ADO.NETWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADO.NETWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="5,5,5,5">
+            <Button Height="40" Width="100" IsEnabled="true" x:Name="ConnectButton" Click="ConnectButton_Click">Connect</Button>
+            <Label></Label>
+            <Button Height="40" Width="100" IsEnabled="false" x:Name="DisconnectButton" Click="DisconnectButton_Click">Disconnect</Button>
+            <Label></Label>
+            <Button Height="40" Width="100" IsEnabled="false" x:Name="LoadContentButton" Click="LoadContentButton_Click">Load content</Button>
+        </StackPanel>
+        <StackPanel Margin="5,0,5,5">
+            <Label x:Name="StatusLabel">Status: Ready to connect.</Label>
+        </StackPanel>
+        <DataGrid x:Name="dbContent" AutoGenerateColumns="False" CanUserAddRows="True" ItemsSource="{Binding TestBinding}" Margin="0,0,0,0" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" IsReadOnly="True" Binding="{Binding Path=Id}" Width="50"></DataGridTextColumn>
+                <DataGridTextColumn Header="Name" IsReadOnly="True"  Binding="{Binding Path=Name}" Width="130"></DataGridTextColumn>
+                <DataGridTextColumn Header="CountryId" IsReadOnly="True"  Binding="{Binding Path=CountryId}" Width="130"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</Window>
