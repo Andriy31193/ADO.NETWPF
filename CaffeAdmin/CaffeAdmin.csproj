@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ADO.NETWPF\Caffe.csproj" />
-    <ProjectReference Include="..\Cafe.Data\Cafe.Data.csproj" />
     <ProjectReference Include="..\Caffe.Data\Caffe.Models.csproj" />
   </ItemGroup>
 </Project>

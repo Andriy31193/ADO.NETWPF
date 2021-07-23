@@ -1,9 +1,9 @@
-using Cafe;
 using Microsoft.EntityFrameworkCore;
+using Cafe;
 
-namespace CaffeAdmin
+namespace Caffe
 {
-    public class CaffeAdminDbContext : BaseDbContext
+    public class CaffeDbContext : BaseDbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

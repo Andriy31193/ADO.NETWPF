@@ -7,11 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caffe", "ADO.NETWPF\Caffe.c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caffe.Models", "Caffe.Data\Caffe.Models.csproj", "{9E4EED23-2659-4128-ABBB-84AAB6107588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaffeAdmin", "CaffeAdmin\CaffeAdmin.csproj", "{C8EB3BCA-413A-4C76-B67F-69AE1D6A120D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Data", "Cafe.Data\Cafe.Data.csproj", "{29C4367B-967C-44A8-9F7F-5EDD098B30F4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaffeD", "CaffeD\CaffeD.csproj", "{DD475530-9D32-468D-B8A2-585BE7FB5D07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaffeAdmin", "CaffeAdmin\CaffeAdmin.csproj", "{C8EB3BCA-413A-4C76-B67F-69AE1D6A120D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +27,6 @@ Global
 		{C8EB3BCA-413A-4C76-B67F-69AE1D6A120D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8EB3BCA-413A-4C76-B67F-69AE1D6A120D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8EB3BCA-413A-4C76-B67F-69AE1D6A120D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29C4367B-967C-44A8-9F7F-5EDD098B30F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29C4367B-967C-44A8-9F7F-5EDD098B30F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29C4367B-967C-44A8-9F7F-5EDD098B30F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29C4367B-967C-44A8-9F7F-5EDD098B30F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD475530-9D32-468D-B8A2-585BE7FB5D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD475530-9D32-468D-B8A2-585BE7FB5D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD475530-9D32-468D-B8A2-585BE7FB5D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD475530-9D32-468D-B8A2-585BE7FB5D07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
